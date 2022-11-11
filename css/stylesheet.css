@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+perspective: 600px;
+}
+.header{
+    overflow: auto;
+height: 45px;
+background-color: #ffffff;
+left: 0;
+right: 0;
+top: 0px;
+position: fixed;
+z-index: 1;
+overflow:hidden;
+}
+.title1{
+   position: relative;
+   top: -1;
+   font-weight: bolder;
+   font-size: xx-large;
+   color: #a4c6eb;
+   margin-left: 50;
+  
+}
+.title2{
+    position: relative;
+    top: -1;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #9c9c9c;
+ }
+.ii{ position: relative;
+    color: #9c9c9c;
+   letter-spacing: 40;
+   top:-51;
+    float: right;
+    font-weight: bold;
+}
+.ul1{list-style:none;
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+    .ul1 li{
+        position: relative;
+        display: inline;
+        margin: 10px; 
+        top: -35;
+    }
+    .ul1 li a {
+        text-decoration: none;
+       color: #a4c6eb;
+        text-decoration-line: none;
+        font-weight: bold;
+    }
+    .home{
+        height: 100vh;
+        background-image: url(../image/virender-singh-hE0nmTffKtM-unsplash.jpg);
+        background-size: cover;
+       width: 100%;
+        position: relative;}
+        .homecontent{
+            width: 100%;
+            position: absolute;
+            top: 36%;
+            font-size: xx-large;}
+        .title3{
+            color: #ffffff;
+            padding-left: 700;}
+            .btn1{
+               margin-left: 710;
+                width: 90px;
+                margin-top: 55px;
+                height: 30;
+               border: #ffffff;
+            font-size: x-small;
+           color: rgb(80, 80, 80);
+           font-weight: bold;
+            }
+            .ul1.menu{
+                position: absolute;
+                top: 42;
+                left: 0;
+                width: 220px;
+                padding: 10px;
+                background-color: #9c9c9c;
+                margin-left: -40;
+                display: block;
+                margin-top: 15; }
+            .title4{
+                padding-top: 40;
+                text-align: center;
+                color: rgb(80, 80, 80);
+                font-weight: bold;
+            }
+            .bord{
+                height: 2px;
+        background-color: #a4c6eb;
+        width: 100;
+        margin: auto;
+        margin-top: 10;
+            }
+            .bord:hover{
+                transform: scale(2,1);
+              transition: 2s;
+            }
+            .img1{
+                height: 300;
+                width: 266;
+                margin: auto;
+                position: relative;
+            }
+            .p1{
+            font-size:small;
+                color: #9c9c9c;
+                font-weight: bold;
+            }
+            .p2{
+                font-size:medium;
+               color: rgb(80, 80, 80) ;
+                font-weight: bold;              
+            }
+            .parent{
+                margin-top: 30;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                justify-content: space-evenly; 
+            }
+            .div1{
+                height: 350;
+                width:270px;
+               background-size: cover;
+               background-position: center;
+            }
+            .div2{
+                height: 350;
+                width:270;
+                background-size: cover;
+                background-position: center;
+            }
+            .div3{
+                height: 350;
+                width:270;
+                background-size: cover;
+                background-position: center;
+            }
+            .div4{
+                height: 350;
+                width:270;
+                background-size: cover;
+                background-position: center;
+            }
+            .teamoverlay{
+                position: absolute;
+                visibility: hidden;
+            }
+            .parent:hover .icon{ visibility:visible;
+            }
+            .icon{position: absolute;
+                visibility: hidden;
+                background-color: #9c9c9c;
+                color: #ffffff;
+              font-size: xx-large;
+                margin-left: 248;
+                margin-top: -30;
+                position: absolute;
+            }
+            .div5{margin-top: 30;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                justify-content: space-evenly; 
+            }
+            .div6{ padding-top: 20;
+                padding-left: 10;
+                width:600;
+                height: 255;
+                color: rgb(80, 80, 80) ;
+                border-color: #585757;
+                border-style: solid;
+            }
+        .title6{
+            color: rgb(80, 80, 80) ;
+        }
+            .img2{
+                width: 260;
+                height: 255;
+            }
+            .div7{transition: 1s;
+                height: 250;
+                width:270;
+               background-size: cover;
+               background-position: center;
+            }
+           .div7:hover{
+            transform: scale(1.1);
+            z-index: 1;
+           }
+            .div8{
+                height: 250;
+                width:270;
+                transition: 1s;
+                background-size: cover;
+                background-position: center;
+            }
+            .div8:hover{
+                transform: scale(1.1);
+                z-index: 1;
+               }
+            .p7{ margin-left: 10;
+              margin-top: -240;
+              font-size:small;
+              color: #9c9c9c;
+              font-weight: bold;
+            }
+            .p8{
+                margin-top: -24;
+                margin-left: 10;
+                font-size:medium;
+               color: rgb(80, 80, 80) ;
+                font-weight: bold;     
+            }
+          .img6{
+        height: 50;
+        margin-top: 20;
+        margin-left: 500;
+          }
+          .img66{
+            height: 50;
+            margin-top: -50;
+            margin-left: 440;
+          }
+          .img666{margin-top: -50;
+            margin-left: 380;
+            height: 50;
+          }
+            .i6{
+            color: #a4c6eb;
+                font-weight: bolder;
+                font-size: larger;
+            }
+            .img3{
+                width: 40;
+                height: 40;
+                margin-left:80;
+                margin-top: 5;
+            }
+            .img4{
+                width: 40;
+                height: 40;
+                margin-left: -40;
+                margin-top: 5;
+                position: absolute;
+                visibility: hidden;
+            }
+            .div9:hover .img4{ visibility:visible;
+            }
+            .img13{
+                width: 40;
+                height: 40;
+                margin-left: -40;
+                margin-top: 5;
+                position: absolute;
+                visibility: hidden;
+            }
+            .div13:hover .img13{ visibility:visible;
+            }
+            .img12{
+                width: 40;
+                height: 40;
+                margin-left: -40;
+                margin-top: 5;
+                position: absolute;
+                visibility: hidden;
+            }
+            .div12:hover .img12{ visibility:visible;
+            }
+            .img11{
+                width: 40;
+                height: 40;
+                margin-left: -40;
+                margin-top: 5;
+                position: absolute;
+                visibility: hidden;
+            }
+            .div11:hover .img11{ visibility:visible;
+            }
+            .img10{
+                width: 40;
+                height: 40;
+                margin-left: -40;
+                margin-top: 5;
+                position: absolute;
+                visibility: hidden;
+            }
+            .div10:hover .img10{ visibility:visible;
+            }
+            .p9{
+                font-size: medium;
+                font-weight: bold;
+                color: rgb(80, 80, 80) ;
+                padding: auto;
+                padding-left: 48;
+            }
+            .p10{
+                font-size: small;
+                font-weight: bold;
+                color: #9c9c9c;
+                padding-left: 18;
+            }
+            .parent1{
+                margin-top: 30;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                justify-content: space-evenly; 
+            }
+            .div9{
+                height: 100;
+                width: 200;
+            }
+            .div10{
+                height: 100;
+                width: 200;
+            }
+            .div11{
+                height: 100;
+                width: 200;
+            }
+            .div12{
+                height: 100;
+                width: 200;
+            }
+            .div13{
+                height: 100;
+                width: 200; 
+            }
+            .bord9{
+                height: 100;
+                width: 2;
+                background-color: #a4c6eb;
+                margin-top: -85;
+               margin-left: -20;
+            }
+            .bord10{
+                width: 1150;
+                height: 2;
+                background-color: #a4c6eb;
+                margin: auto;
+                margin-top: 50; 
+            }
+        .parent3{margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-evenly; 
+        }
+        .div15{
+            height: 400;
+            width: 300;
+        }
+        .div115{
+            transform-style: preserve-3d;
+            position: relative;
+            transition: 2s;
+        }
+    .div115:hover{
+        transform: rotateY(180deg);
+    }
+        .back1{ transform: rotateY(180deg);
+            height: 340; 
+            width:296px;
+        }
+        .img15 , .back1{
+            position: absolute;
+        }
+        .img15{ height: 340; 
+            width:296px;
+            z-index: 1;
+            backface-visibility: hidden;
+        } 
+        .div116{
+            transform-style: preserve-3d;
+            position: relative;
+            transition: 2s;
+        }
+    .div116:hover{
+        transform: rotateY(180deg);
+    }
+        .back2{ transform: rotateY(180deg);
+            height: 340; 
+            width:296px;
+        }
+        .img16{ height: 340; 
+            width:296px;
+            z-index: 1;
+            backface-visibility: hidden;
+        } 
+        .img16 , .back2{
+            position: absolute;
+        }
+        .img17{ height: 340; 
+            width:296px;
+            z-index: 1;
+            backface-visibility: hidden;
+        } 
+        .img17 , .back3{
+            position: absolute;
+        }
+        .back3{ transform: rotateY(180deg);
+            height: 340; 
+            width:296px;
+        }
+        .div117{
+            transform-style: preserve-3d;
+            position: relative;
+            transition: 2s;
+        }
+    .div117:hover{
+        transform: rotateY(180deg);
+    }
+    .div118{
+        transform-style: preserve-3d;
+        position: relative;
+        transition: 2s;
+    }
+.div118:hover{
+    transform: rotateY(180deg);
+}
+    .back4{ transform: rotateY(180deg);
+        height: 340; 
+        width:296px;
+    }
+    .img18{ height: 340; 
+        width:296px;
+        z-index: 1;
+        backface-visibility: hidden;
+    } 
+    .img18 , .back4{
+        position: absolute;
+    }
+    .img18{ height: 340; 
+        width:296px;
+        z-index: 1;
+        backface-visibility: hidden;
+    } 
+    .img18 , .back4{
+        position: absolute;
+    }
+    .back4{ transform: rotateY(180deg);
+        height: 340; 
+        width:296px;
+    }
+    .div118{
+        transform-style: preserve-3d;
+        position: relative;
+        transition: 2s;
+    }
+.div118:hover{
+    transform: rotateY(180deg);
+}
+.div119{
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 2s;
+}
+.div119:hover{
+transform: rotateY(180deg);
+}
+.back5{ transform: rotateY(180deg);
+    height: 340; 
+    width:296px;
+}
+.img19{ height: 340; 
+    width:296px;
+    z-index: 1;
+    backface-visibility: hidden;
+} 
+.img19 , .back5{
+    position: absolute;
+}
+.img19{ height: 340; 
+    width:296px;
+    z-index: 1;
+    backface-visibility: hidden;
+} 
+.img19 , .back5{
+    position: absolute;
+}
+.back5{ transform: rotateY(180deg);
+    height: 340; 
+    width:296px;
+}
+.div119{
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 2s;
+}
+.div119:hover{
+transform: rotateY(180deg);
+}
+.div120{
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 2s;
+}
+.div120:hover{
+transform: rotateY(180deg);
+}
+.back6{ transform: rotateY(180deg);
+    height: 340; 
+    width:296px;
+}
+.img20{ height: 340; 
+    width:296px;
+    z-index: 1;
+    backface-visibility: hidden;
+} 
+.img20 , .back6{
+    position: absolute;
+}
+.img20{ height: 340; 
+    width:296px;
+    z-index: 1;
+    backface-visibility: hidden;
+} 
+.img20 , .back6{
+    position: absolute;
+}
+.back6{ transform: rotateY(180deg);
+    height: 340; 
+    width:296px;
+}
+.div120{
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 2s;
+}
+.div120:hover{
+transform: rotateY(180deg);
+}
+    .p14{margin-top: -20;
+        font-size: small;
+    }
+    .p15{
+        font-size: medium;
+        font-weight: bold;
+    }
+    .img14{
+        height: 60;
+        margin-top: 330;
+    }
+        .div15{
+            height: 400;
+            width: 300;
+            background-position: center;
+            background-size: cover;
+        }
+        .div16{
+            height: 400;
+            width: 300;
+        }
+        .div17{
+            height: 400;
+            width: 300;
+        }
+        .div18{
+            height: 400;
+            width: 300;
+        }
+        .div19{
+            height: 400;
+            width: 300;
+        }
+        .div20{
+            height: 400;
+            width: 300;
+        }
